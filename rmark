@@ -1,0 +1,16 @@
+#Download home brew using terminal if you do not already have it 
+ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+
+#Install gcc using HB
+
+brew install gcc
+
+#Install rMark 
+
+brew tap sjbonner/tap
+
+brew install mark-on-mac
+
+#test if install worked 
+
+which mark
